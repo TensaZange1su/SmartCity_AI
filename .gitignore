@@ -1,24 +1,17 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.env
-*.env.*
-
-# Virtual environment
+# Virtual environments
 venv/
 env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large data
+data/embeddings.npy
+data/gis_clean.csv
 
 # IDE / OS
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Large data
-data/embeddings.npy
-data/gis_clean.csv
-
-# Logs
-*.log
