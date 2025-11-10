@@ -1,0 +1,37 @@
+#CORE SCIENTIFIC STACK
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.2
+
+#DEEP LEARNING (CPU)
+torch==2.3.1+cpu
+torchvision==0.18.1+cpu
+torchaudio==2.3.1+cpu
+--index-url https://download.pytorch.org/whl/cpu
+
+#NLP & TRANSFORMERS
+transformers==4.40.2
+sentence-transformers==2.2.2
+huggingface-hub==0.23.4
+cross-encoder==1.0.3
+
+
+#OPENAI CLIENT
+openai==1.44.0
+
+
+#STREAMLIT & MAPS
+streamlit==1.40.0
+streamlit-folium==0.22.0
+streamlit-geolocation==0.0.10
+folium==0.16.0
+geopy==2.4.1
+osmnx==1.3.0
+networkx==3.1
+
+
+#UTILITIES & FIXES
+requests==2.32.3
+python-dotenv==1.0.1
+packaging==24.1
+fsspec==2024.6.1
